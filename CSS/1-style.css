@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(/Photos/background.png);
+    background-size: cover;
+    margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 480px){
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-image: none;
+    }
+}
+
+.company-name{
+    background-color: rgb(55, 197, 215);
+    color: rgb(255, 255, 255);
+    width: 1256px;
+    height: 40px;
+    padding-bottom: 10.5px;
+    padding-top: 10px;
+    text-align: center;
+    position: cover;
+    transform: translateX(-70px);
+}
+.company-name span{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
