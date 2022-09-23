@@ -16,7 +16,7 @@ body{
   /* Hide the images by default */
   .mySlides {
     display: none;
-    transform: translateX(15px);
+    transform: translateX(22px);
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -37,7 +37,6 @@ body{
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    transform: translateY(10px);
     -webkit-user-select: none;
     background-color: transparent;
   }
@@ -54,7 +53,6 @@ body{
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    transform: translateX(300px);
     -webkit-user-select: none;
     background-color: transparent;
   }
@@ -103,4 +101,3 @@ body{
   .demo:hover {
     opacity: 1;
   }
-
