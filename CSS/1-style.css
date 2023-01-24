@@ -49,3 +49,9 @@ body{
 .name{
     font-size: 34px;
 }
+
+@media only screen and (max-width:700px) {
+    nav div ul{
+        transform: translateX(-100px);
+    }
+}
